@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Service Details — 3AG</title>
+<meta name="description" content="Detailed look at 3AG's civil, road, transport, GIS and fleet maintenance services.">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cream:   '#f2ede7',
+          charcoal:'#292a27',
+          ink:     '#21201d',
+          tan:     '#ddc7a8',
+          tandark: '#c2a67c',
+        },
+        fontFamily: {
+          display: ['"Space Grotesk"', 'sans-serif'],
+          body: ['Inter', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-cream text-ink font-body antialiased">
+
+<!-- ============ HEADER (same as home) ============ -->
+<header id="siteHeader" class="fixed top-0 inset-x-0 z-50 bg-charcoal transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-5 md:px-10 flex items-center justify-between h-16 md:h-20 transition-all duration-300" id="headerInner">
+    <a href="index.html" class="flex items-center gap-2 shrink-0">
+      <span class="font-display font-700 text-2xl md:text-3xl tracking-tight text-cream">3AG</span>
+      <span class="hidden sm:block w-8 h-px bg-tan"></span>
+      <span class="hidden sm:block text-[11px] uppercase tracking-[0.18em] text-tan/80 mt-0.5">Engineering &amp; Fleet</span>
+    </a>
+
+    <nav class="hidden lg:flex items-center gap-9 text-sm text-cream/85">
+      <a href="index.html#services" class="nav-link">Services</a>
+      <a href="index.html#about" class="nav-link">About</a>
+      <a href="index.html#work" class="nav-link">Work</a>
+      <a href="index.html#process" class="nav-link">Process</a>
+      <a href="index.html#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="index.html#contact" class="hidden lg:inline-flex items-center gap-2 bg-tan text-charcoal font-display font-600 text-sm px-5 py-2.5 hover:bg-cream transition-colors duration-200">
+      Request a quote
+    </a>
+
+    <button id="languageToggle" class="language-toggle" type="button" aria-label="Switch language to Arabic" title="Switch language to Arabic">العربية</button>
+
+    <button id="menuBtn" aria-label="Open menu" aria-expanded="false" class="lg:hidden relative w-10 h-10 flex flex-col justify-center items-center gap-[5px]">
+      <span class="burger-line block w-6 h-[2px] bg-cream"></span>
+      <span class="burger-line block w-6 h-[2px] bg-cream"></span>
+      <span class="burger-line block w-6 h-[2px] bg-cream"></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU OVERLAY (same as home) ============ -->
+<div id="mobileMenu" class="fixed inset-0 z-40 bg-charcoal translate-x-full transition-transform duration-500 ease-[cubic-bezier(.77,0,.18,1)] lg:hidden">
+  <div class="h-full flex flex-col justify-center px-8">
+    <nav class="flex flex-col gap-1">
+      <a href="index.html#services" class="mobile-link">Services <span class="mobile-link-num">01</span></a>
+      <a href="index.html#about" class="mobile-link">About <span class="mobile-link-num">02</span></a>
+      <a href="index.html#work" class="mobile-link">Work <span class="mobile-link-num">03</span></a>
+      <a href="index.html#process" class="mobile-link">Process <span class="mobile-link-num">04</span></a>
+      <a href="index.html#contact" class="mobile-link">Contact <span class="mobile-link-num">05</span></a>
+    </nav>
+    <a href="index.html#contact" class="mt-10 inline-flex w-fit items-center gap-2 bg-tan text-charcoal font-display font-600 text-sm px-6 py-3">
+      Request a quote
+    </a>
+    <div class="mt-14 text-cream/50 text-sm leading-relaxed">
+      <p>Cairo, Egypt</p>
+      <p>hello@3ag-eg.com &nbsp;·&nbsp; +20 100 000 0000</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============ BREADCRUMB ============ -->
+<div class="pt-20 md:pt-24 bg-cream">
+  <div class="max-w-7xl mx-auto px-5 md:px-10 py-4 breadcrumb text-sm">
+    <a href="index.html">Home</a><span class="sep">/</span><a href="index.html#services">Services</a><span class="sep">/</span><span id="breadcrumbCurrent" class="text-charcoal">&nbsp;</span>
+  </div>
+</div>
+
+<!-- ============ DYNAMIC PAGE CONTENT ============ -->
+<main id="pageContent">
+  <!-- populated by service-details.js -->
+</main>
+
+<!-- ============ CTA BANNER ============ -->
+<section class="cta-banner text-cream py-16 md:py-20">
+  <div class="absolute inset-0 blueprint-grid opacity-[0.06]"></div>
+  <div class="relative max-w-7xl mx-auto px-5 md:px-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+    <div>
+      <h2 class="font-display font-700 text-2xl md:text-4xl leading-tight">Ready to start this service?</h2>
+      <p class="text-cream/60 mt-2 max-w-md">Tell us about your site or fleet and we'll come back with next steps within one business day.</p>
+    </div>
+    <a href="index.html#contact" class="inline-flex items-center justify-center bg-tan text-charcoal font-display font-600 px-7 py-3.5 hover:bg-cream transition-colors duration-200 shrink-0">
+      Request a quote
+    </a>
+  </div>
+</section>
+
+<!-- ============ FOOTER (same as home) ============ -->
+<footer class="bg-charcoal border-t border-cream/10 pt-14 pb-8">
+  <div class="max-w-7xl mx-auto px-5 md:px-10">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 pb-10">
+      <div>
+        <span class="font-display font-700 text-2xl text-cream">3AG</span>
+        <p class="mt-3 text-sm text-cream/50 leading-relaxed max-w-xs">Civil construction, road works, GIS and fleet maintenance — one team, ground to road.</p>
+      </div>
+      <div>
+        <h4 class="text-cream text-sm font-display font-600 mb-4">Services</h4>
+        <ul class="space-y-2.5 text-sm text-cream/50">
+          <li><a href="service-details.html?service=civil-construction" class="hover:text-tan">Civil Construction</a></li>
+          <li><a href="service-details.html?service=road-construction" class="hover:text-tan">Road Construction</a></li>
+          <li><a href="service-details.html?service=gis-services" class="hover:text-tan">GIS Services</a></li>
+          <li><a href="service-details.html?service=fleet-maintenance" class="hover:text-tan">Fleet Maintenance</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-cream text-sm font-display font-600 mb-4">Company</h4>
+        <ul class="space-y-2.5 text-sm text-cream/50">
+          <li><a href="index.html#about" class="hover:text-tan">About</a></li>
+          <li><a href="index.html#work" class="hover:text-tan">Work</a></li>
+          <li><a href="index.html#process" class="hover:text-tan">Process</a></li>
+          <li><a href="index.html#contact" class="hover:text-tan">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-cream text-sm font-display font-600 mb-4">Contact</h4>
+        <ul class="space-y-2.5 text-sm text-cream/50">
+          <li>Cairo, Egypt</li>
+          <li>+20 100 000 0000</li>
+          <li>hello@3ag-eg.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-cream/10 pt-6 flex flex-col sm:flex-row justify-between gap-3 text-xs text-cream/35">
+      <span>&copy; <span id="year"></span> 3AG. All rights reserved.</span>
+      <span>Built for mobile-first, works everywhere.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="language.js"></script>
+<script src="script.js"></script>
+<script src="service-details.js"></script>
+</body>
+</html>
