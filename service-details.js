@@ -10,7 +10,7 @@ const SERVICES = {
     index: '01',
     title: 'Civil Construction',
     tagline: 'Foundations, structural concrete & full-build civil works.',
-        heroVideo: './videos/construction video1.mp4',
+        heroVideo: './videos/construction 1.mp4',
     heroImage: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1200&auto=format&fit=crop',
     heroAlt: 'Civil construction site with concrete structure',
     intro: [
@@ -24,15 +24,15 @@ const SERVICES = {
     ],
     gallery: [
       { src: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=900&auto=format&fit=crop', alt: 'Concrete structure under construction' },
-      { src: 'https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=900&auto=format&fit=crop', alt: 'Steel reinforcement on a civil site' },
-      { src: 'https://images.unsplash.com/photo-1590644365607-1c5a0d0b9d7f?q=80&w=900&auto=format&fit=crop', alt: 'Concrete pour on a foundation slab' },
-      { src: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=900&auto=format&fit=crop', alt: 'Construction crane on a civil site' },
-      { src: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=900&auto=format&fit=crop', alt: 'Engineers reviewing structural plans on site' },
+      { src: './images/construction 3.jpeg', alt: 'Steel reinforcement on a civil site' },
+      { src: './images/construction 4.jpeg', alt: 'Concrete pour on a foundation slab' },
+      { src: 'https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=800&auto=format&fit=crop', alt: 'Construction crane on a civil site' },
+      { src: 'https://images.unsplash.com/photo-1461695008884-244cb4543d74?q=80&w=800&auto=format&fit=crop', alt: 'Engineers reviewing structural plans on site' },
     ],
     projects: [
-      { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Commercial', title: 'Retail block foundations', img: 'https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Mixed-use', title: 'Structural concrete frame', img: 'https://images.unsplash.com/photo-1461695008884-244cb4543d74?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: './videos/construction 2.mp4' },
+      { tag: 'Commercial', title: 'Retail block foundations', img: './images/construction 5.jpeg' },
+      { tag: 'Mixed-use', title: 'Structural concrete frame', img: './images/construction 6.jpeg' },
     ],
   },
 
@@ -40,8 +40,8 @@ const SERVICES = {
     index: '02',
     title: 'Touch-Up Construction',
     tagline: 'Finishing, repairs & renovation that protect the build.',
-    heroVideo: './videos/WhatsApp Video 2026-09-23 at 10.34.55 AM.mp4',
-    //  heroImage: 'https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=1200&auto=format&fit=crop',
+    heroVideo: './videos/touch up video 1 .mp4',
+     heroImage: './images/touch up 5.jpeg',
     heroAlt: 'Finishing and touch-up construction work on a wall',
     intro: [
       "The finishing pass is what a client actually sees, so we treat it as its own discipline — plastering, painting, patching and the snag-list work that gets a site handed over clean.",
@@ -62,7 +62,7 @@ const SERVICES = {
     projects: [
       { tag: 'Residential', title: 'Full interior finishing pass', img: './videos/touch up video 3 .mp4' },
       // { tag: 'Office Fit-out', title: 'Snag-list repair programme', img: './videos/touch up video 4 .mp4' },
-      { tag: 'Retail', title: 'Post-handover maintenance', img: './videos/vidio 4.mp4' },
+      { tag: 'Retail', title: 'Post-handover maintenance', img: './videos/touch up video 4 .mp4' },
     ],
   },
 
@@ -130,7 +130,8 @@ const SERVICES = {
     index: '05',
     title: 'Road Construction',
     tagline: 'Grading, base-work & asphalt paving for roads & access.',
-        heroVideo: './videos/construction video1.mp4',
+        heroVideo: './videos/construction road 1.mp4',
+           heroImage: './images/road1.png',
     heroAlt: 'Road construction with asphalt paving',
     intro: [
       "Earthworks, sub-base preparation and asphalt or concrete paving for access roads, site roads and public works — built to load spec and drainage requirements.",
@@ -142,10 +143,10 @@ const SERVICES = {
       { label: 'Access', text: 'Site roads and public works alike.' },
     ],
     gallery: [
-      { src: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=900&auto=format&fit=crop', alt: 'Asphalt road paving equipment' },
-      { src: 'https://images.unsplash.com/photo-1592928038288-9a9e78e91159?q=80&w=900&auto=format&fit=crop', alt: 'Road paving in progress' },
-      { src: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?q=80&w=900&auto=format&fit=crop', alt: 'Heavy machinery grading a road base' },
-      { src: 'https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?q=80&w=900&auto=format&fit=crop', alt: 'Freshly paved asphalt road' },
+      { src: './images/road3.png', alt: 'Asphalt road paving equipment' },
+      { src: './images/road1.png', alt: 'Road paving in progress' },
+      { src: './images/road2.png', alt: 'Heavy machinery grading a road base' },
+      { src: './images/road4.png', alt: 'Freshly paved asphalt road' },
       { src: 'https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=900&auto=format&fit=crop', alt: 'Road construction crew at work' },
     ],
     projects: [
