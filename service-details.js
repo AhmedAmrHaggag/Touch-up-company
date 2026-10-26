@@ -55,7 +55,7 @@ const SERVICES = {
     gallery: [
       { src: './images/touch up details 1.jpeg', alt: 'Wall plastering and finishing work' },
       { src: './images/touch up 3.jpeg', alt: 'Interior painting in progress' },
-      { src: 'https://images.unsplash.com/photo-1609766857041-ed402ea8069a?q=80&w=900&auto=format&fit=crop', alt: 'Finished interior wall detail' },
+      { src: './images/touch up 6.jpeg', alt: 'Finished interior wall detail' },
       { src: './images/touch up 4.jpeg', alt: 'Touch-up repair work on a wall corner' },
       { src: './images/touch up 5.jpeg', alt: 'Finishing crew reviewing a snag list' },
     ],
@@ -147,12 +147,12 @@ const SERVICES = {
       { src: './images/road1.png', alt: 'Road paving in progress' },
       { src: './images/road2.png', alt: 'Heavy machinery grading a road base' },
       { src: './images/road4.png', alt: 'Freshly paved asphalt road' },
-      { src: 'https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=900&auto=format&fit=crop', alt: 'Road construction crew at work' },
+      { src: './images/road5.png', alt: 'Road construction crew at work' },
     ],
     projects: [
-      // { tag: 'Access Road', title: 'Industrial zone paving', img: './videos/construction road 2.mp4' },
+      { tag: 'Access Road', title: 'Industrial zone paving', img: '././images/road7.png' },
       { tag: 'Public Works', title: 'District road resurfacing', img: './videos/construction road 1.mp4' },
-      { tag: 'Earthworks', title: 'Site road grading & base', img: 'https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Earthworks', title: 'Site road grading & base', img: './images/road6.png' },
     ],
   },
 
@@ -160,6 +160,7 @@ const SERVICES = {
     index: '06',
     title: 'Jumbo & Mini Vehicle Maintenance',
     tagline: 'Scheduled upkeep for heavy jumbo units & light vehicles.',
+    heroVideo: './videos/Maintenance 1.mp4',
     heroImage: 'https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?q=80&w=1200&auto=format&fit=crop',
     heroAlt: 'Mechanic servicing a heavy vehicle in a workshop',
     intro: [
@@ -180,8 +181,8 @@ const SERVICES = {
     ],
     projects: [
       { tag: 'Heavy Maintenance', title: 'Jumbo truck service programme', img: './images/mainterence6.jpeg' },
-      { tag: 'Light Maintenance', title: 'Mini vehicle routine upkeep', img: 'https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Breakdown', title: '24/7 response & recovery', img: 'https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Light Maintenance', title: 'Mini vehicle routine upkeep', img: './videos/Maintenance 3.mp4' },
+      { tag: 'Breakdown', title: '24/7 response & recovery', img: './videos/Maintenance 2.mp4' },
     ],
   },
 };
