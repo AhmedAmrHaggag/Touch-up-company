@@ -26,8 +26,8 @@ const SERVICES = {
       { src: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=900&auto=format&fit=crop', alt: 'Concrete structure under construction' },
       { src: './images/construction 3.jpeg', alt: 'Steel reinforcement on a civil site' },
       { src: './images/construction 4.jpeg', alt: 'Concrete pour on a foundation slab' },
-      { src: 'https://images.unsplash.com/photo-1541976590-713941681591?q=80&w=800&auto=format&fit=crop', alt: 'Construction crane on a civil site' },
-      { src: 'https://images.unsplash.com/photo-1461695008884-244cb4543d74?q=80&w=800&auto=format&fit=crop', alt: 'Engineers reviewing structural plans on site' },
+      { src: './images/construction 7.jpeg', alt: 'Construction crane on a civil site' },
+      { src: './images/construction 91.jpeg', alt: 'Engineers reviewing structural plans on site' },
     ],
     projects: [
       { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: './videos/construction 2.mp4' },
@@ -61,7 +61,7 @@ const SERVICES = {
     ],
     projects: [
       { tag: 'Residential', title: 'Full interior finishing pass', img: './videos/touch up video 3 .mp4' },
-      // { tag: 'Office Fit-out', title: 'Snag-list repair programme', img: './videos/touch up video 4 .mp4' },
+      { tag: 'Office Fit-out', title: 'Snag-list repair programme', img: './videos/touch up video 5 .mp4' },
       { tag: 'Retail', title: 'Post-handover maintenance', img: './videos/touch up video 4 .mp4' },
     ],
   },
@@ -72,22 +72,22 @@ const SERVICES = {
     tagline: 'Car & vehicle transport for people, sites and materials.',
     heroVideo: './videos/transportain video 1.mp4',
      heroImage: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=1200&auto=format&fit=crop',
-    heroAlt: 'Fleet of transport vehicles on a road',
+    heroAlt: 'Maintenance of transport vehicles on a road',
     intro: [
-      "A managed car fleet for site staff, client transfers and material runs — dispatched and tracked so your people and cargo arrive on schedule, every time.",
-      "Because we run the fleet ourselves, transport is never the reason a project slips."
+      "A managed car Maintenance for site staff, client transfers and material runs — dispatched and tracked so your people and cargo arrive on schedule, every time.",
+      "Because we run the Maintenance ourselves, transport is never the reason a project slips."
     ],
     features: [
-      { label: 'Fleet', text: 'Staff transfers, client transport, material runs.' },
+      { label: 'Maintenance', text: 'Staff transfers, client transport, material runs.' },
       { label: 'Dispatch', text: 'Centrally scheduled and tracked, not ad-hoc.' },
       { label: 'Coverage', text: 'Site-to-site and city routes, day or night.' },
     ],
     gallery: [
-      { src: 'https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=900&auto=format&fit=crop', alt: 'Transport vehicles parked in a row' },
-      { src: 'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?q=80&w=900&auto=format&fit=crop', alt: 'Car driving on a highway' },
-      { src: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=900&auto=format&fit=crop', alt: 'Fleet vehicle interior dashboard' },
-      { src: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=900&auto=format&fit=crop', alt: 'Vehicles queued at a dispatch yard' },
-      { src: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=900&auto=format&fit=crop', alt: 'Driver checking a transport vehicle' },
+      { src: './images/mainterence8.jpeg', alt: 'Transport vehicles parked in a row' },
+      { src: './images/mainterence9.jpeg', alt: 'Car driving on a highway' },
+      { src: './images/mainterence2.jpeg', alt: 'Maintenance vehicle interior dashboard' },
+      { src: './images/mainterence5.jpeg', alt: 'Vehicles queued at a dispatch yard' },
+      { src: './images/OIP (1).webp', alt: 'Driver checking a transport vehicle' },
     ],
     projects: [
       { tag: 'Staff Transfer', title: 'Daily site-to-site shuttle', img: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800&auto=format&fit=crop' },
@@ -130,12 +130,12 @@ const SERVICES = {
     index: '05',
     title: 'Road Construction',
     tagline: 'Grading, base-work & asphalt paving for roads & access.',
-        heroVideo: './videos/construction road 1.mp4',
+        heroVideo: './videos/construction road 3.mp4',
            heroImage: './images/road1.png',
     heroAlt: 'Road construction with asphalt paving',
     intro: [
       "Earthworks, sub-base preparation and asphalt or concrete paving for access roads, site roads and public works — built to load spec and drainage requirements.",
-      "Our road crews work alongside our own transport fleet, so material supply is never the bottleneck."
+      "Our road crews work alongside our own transport Maintenance, so material supply is never the bottleneck."
     ],
     features: [
       { label: 'Earthworks', text: 'Grading, cut and fill, sub-base preparation.' },
@@ -151,12 +151,12 @@ const SERVICES = {
     ],
     projects: [
       // { tag: 'Access Road', title: 'Industrial zone paving', img: './videos/construction road 2.mp4' },
-      { tag: 'Public Works', title: 'District road resurfacing', img: 'https://images.unsplash.com/photo-1590486803833-1c5dc8ddd4c8?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Public Works', title: 'District road resurfacing', img: './videos/construction road 1.mp4' },
       { tag: 'Earthworks', title: 'Site road grading & base', img: 'https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=800&auto=format&fit=crop' },
     ],
   },
 
-  'fleet-maintenance': {
+  'Maintenance-maintenance': {
     index: '06',
     title: 'Jumbo & Mini Vehicle Maintenance',
     tagline: 'Scheduled upkeep for heavy jumbo units & light vehicles.',
@@ -172,15 +172,15 @@ const SERVICES = {
       { label: 'Parts', text: 'Managed inventory to minimise downtime.' },
     ],
     gallery: [
-      { src: 'https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?q=80&w=900&auto=format&fit=crop', alt: 'Mechanic servicing a heavy vehicle' },
-      { src: 'https://images.unsplash.com/photo-1591768793355-74d04bb6608f?q=80&w=900&auto=format&fit=crop', alt: 'Truck fleet maintenance workshop' },
-      { src: 'https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=900&auto=format&fit=crop', alt: 'Engine maintenance close-up' },
-      { src: 'https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=900&auto=format&fit=crop', alt: 'Workshop tools laid out for vehicle service' },
-      { src: 'https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=900&auto=format&fit=crop', alt: 'Technician inspecting a vehicle underside' },
+      { src: './images/mainterence.webp', alt: 'Mechanic servicing a heavy vehicle' },
+      { src: './images/mainterence7.jpeg', alt: 'Truck Maintenance maintenance workshop' },
+      { src: './images/OIP (2).webp', alt: 'Engine maintenance close-up' },
+      { src: './images/mainterence3.jpeg', alt: 'Workshop tools laid out for vehicle service' },
+      { src: './images/mainterence8.jpeg', alt: 'Technician inspecting a vehicle underside' },
     ],
     projects: [
-      { tag: 'Heavy Fleet', title: 'Jumbo truck service programme', img: 'https://images.unsplash.com/photo-1591768793355-74d04bb6608f?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Light Fleet', title: 'Mini vehicle routine upkeep', img: 'https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Heavy Maintenance', title: 'Jumbo truck service programme', img: './images/mainterence6.jpeg' },
+      { tag: 'Light Maintenance', title: 'Mini vehicle routine upkeep', img: 'https://images.unsplash.com/photo-1580983561371-7f4b242d8ec0?q=80&w=800&auto=format&fit=crop' },
       { tag: 'Breakdown', title: '24/7 response & recovery', img: 'https://images.unsplash.com/photo-1615906655593-ad0386982a0f?q=80&w=800&auto=format&fit=crop' },
     ],
   },
@@ -192,7 +192,7 @@ const SERVICE_ORDER = [
   'transportation',
   'gis-services',
   'road-construction',
-  'fleet-maintenance',
+  'Maintenance-maintenance',
 ];
 
 /* ---------- helpers ---------- */
@@ -454,89 +454,234 @@ function renderService(slug) {
 }
 
 /* ---------- carousel: automatic + manual ---------- */
+// function initCarousel(slideCount) {
+//   const track = document.getElementById('galleryTrack');
+//   const dotsWrap = document.getElementById('galleryDots');
+//   if (!track) return;
+
+//   const prevBtns = document.querySelectorAll('.carousel-btn.prev, .prev-inline');
+//   const nextBtns = document.querySelectorAll('.carousel-btn.next, .next-inline');
+//   const dots = dotsWrap ? dotsWrap.querySelectorAll('.carousel-dot') : [];
+
+//   let current = 0;
+//   let autoplayId = null;
+//   const AUTOPLAY_MS = 10000;
+
+//   const slideMetrics = () => {
+//     const slide = track.querySelector('.carousel-slide');
+//     if (!slide) return { width: 0, gap: 0 };
+//     const style = window.getComputedStyle(track);
+//     const gap = parseFloat(style.columnGap || style.gap || '0');
+//     return { width: slide.getBoundingClientRect().width, gap };
+//   };
+
+//   const goTo = (index, smooth = true) => {
+//     const count = slideCount;
+//     current = (index + count) % count;
+//     const { width, gap } = slideMetrics();
+//     track.scrollTo({ left: current * (width + gap), behavior: smooth ? 'smooth' : 'auto' });
+//     updateDots();
+//   };
+
+//   const updateDots = () => {
+//     dots.forEach((d, i) => d.classList.toggle('active', i === current));
+//   };
+
+//   const next = () => goTo(current + 1);
+//   const prev = () => goTo(current - 1);
+
+//   const startAutoplay = () => {
+//     stopAutoplay();
+//     autoplayId = setInterval(next, AUTOPLAY_MS);
+//   };
+//   const stopAutoplay = () => {
+//     if (autoplayId) clearInterval(autoplayId);
+//     autoplayId = null;
+//   };
+//   let resumeTimer = null;
+//   const pauseThenResume = () => {
+//     stopAutoplay();
+//     clearTimeout(resumeTimer);
+//     resumeTimer = setTimeout(startAutoplay, 6000);
+//   };
+
+//   prevBtns.forEach(btn => btn.addEventListener('click', () => { prev(); pauseThenResume(); }));
+//   nextBtns.forEach(btn => btn.addEventListener('click', () => { next(); pauseThenResume(); }));
+
+//   dots.forEach(dot => {
+//     dot.addEventListener('click', () => {
+//       goTo(parseInt(dot.getAttribute('data-dot'), 10));
+//       pauseThenResume();
+//     });
+//   });
+
+//   // manual touch/drag scroll: keep dots in sync, and pause autoplay while interacting
+//   let scrollTimeout = null;
+//   track.addEventListener('scroll', () => {
+//     clearTimeout(scrollTimeout);
+//     scrollTimeout = setTimeout(() => {
+//       const { width, gap } = slideMetrics();
+//       if (width) {
+//         current = Math.round(track.scrollLeft / (width + gap));
+//         updateDots();
+//       }
+//     }, 100);
+//   }, { passive: true });
+
+//   track.addEventListener('pointerdown', pauseThenResume, { passive: true });
+//   track.addEventListener('touchstart', pauseThenResume, { passive: true });
+
+//   const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+//   if (!prefersReducedMotion && slideCount > 1) {
+//     startAutoplay();
+//   }
+
+//   window.addEventListener('resize', () => goTo(current, false));
+// }
+
 function initCarousel(slideCount) {
   const track = document.getElementById('galleryTrack');
   const dotsWrap = document.getElementById('galleryDots');
-  if (!track) return;
 
-  const prevBtns = document.querySelectorAll('.carousel-btn.prev, .prev-inline');
-  const nextBtns = document.querySelectorAll('.carousel-btn.next, .next-inline');
-  const dots = dotsWrap ? dotsWrap.querySelectorAll('.carousel-dot') : [];
+  if (!track || !dotsWrap) return;
+
+  const slides = Array.from(
+    track.querySelectorAll('.carousel-slide')
+  );
+
+  const dots = Array.from(
+    dotsWrap.querySelectorAll('.carousel-dot')
+  );
+
+  const prevBtns = document.querySelectorAll(
+    '.carousel-btn.prev, .prev-inline'
+  );
+
+  const nextBtns = document.querySelectorAll(
+    '.carousel-btn.next, .next-inline'
+  );
+
+  const count = Math.min(slideCount, slides.length);
+
+  if (count < 1) return;
 
   let current = 0;
   let autoplayId = null;
+  let resumeTimer = null;
+  let scrollTimer = null;
+
   const AUTOPLAY_MS = 10000;
 
-  const slideMetrics = () => {
-    const slide = track.querySelector('.carousel-slide');
-    if (!slide) return { width: 0, gap: 0 };
-    const style = window.getComputedStyle(track);
-    const gap = parseFloat(style.columnGap || style.gap || '0');
-    return { width: slide.getBoundingClientRect().width, gap };
-  };
+  function updateDots() {
+    dots.forEach((dot, index) => {
+      const active = index === current;
 
-  const goTo = (index, smooth = true) => {
-    const count = slideCount;
+      dot.classList.toggle('active', active);
+      dot.setAttribute('aria-current', String(active));
+    });
+  }
+
+  function goTo(index, smooth = true) {
     current = (index + count) % count;
-    const { width, gap } = slideMetrics();
-    track.scrollTo({ left: current * (width + gap), behavior: smooth ? 'smooth' : 'auto' });
+
+    const slide = slides[current];
+
+    track.scrollTo({
+      left: slide.offsetLeft - track.offsetLeft,
+      behavior: smooth ? 'smooth' : 'auto'
+    });
+
     updateDots();
-  };
+  }
 
-  const updateDots = () => {
-    dots.forEach((d, i) => d.classList.toggle('active', i === current));
-  };
+  function stopAutoplay() {
+    if (autoplayId !== null) {
+      clearInterval(autoplayId);
+      autoplayId = null;
+    }
+  }
 
-  const next = () => goTo(current + 1);
-  const prev = () => goTo(current - 1);
-
-  const startAutoplay = () => {
+  function startAutoplay() {
     stopAutoplay();
-    autoplayId = setInterval(next, AUTOPLAY_MS);
-  };
-  const stopAutoplay = () => {
-    if (autoplayId) clearInterval(autoplayId);
-    autoplayId = null;
-  };
-  let resumeTimer = null;
-  const pauseThenResume = () => {
+
+    if (count > 1) {
+      autoplayId = setInterval(() => {
+        goTo(current + 1);
+      }, AUTOPLAY_MS);
+    }
+  }
+
+  function pauseThenResume() {
     stopAutoplay();
     clearTimeout(resumeTimer);
+
     resumeTimer = setTimeout(startAutoplay, 6000);
-  };
+  }
 
-  prevBtns.forEach(btn => btn.addEventListener('click', () => { prev(); pauseThenResume(); }));
-  nextBtns.forEach(btn => btn.addEventListener('click', () => { next(); pauseThenResume(); }));
-
-  dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      goTo(parseInt(dot.getAttribute('data-dot'), 10));
+  prevBtns.forEach(button => {
+    button.addEventListener('click', () => {
+      goTo(current - 1);
       pauseThenResume();
     });
   });
 
-  // manual touch/drag scroll: keep dots in sync, and pause autoplay while interacting
-  let scrollTimeout = null;
+  nextBtns.forEach(button => {
+    button.addEventListener('click', () => {
+      goTo(current + 1);
+      pauseThenResume();
+    });
+  });
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      goTo(index);
+      pauseThenResume();
+    });
+  });
+
+  // Keep the dots synchronized with manual scrolling.
   track.addEventListener('scroll', () => {
-    clearTimeout(scrollTimeout);
-    scrollTimeout = setTimeout(() => {
-      const { width, gap } = slideMetrics();
-      if (width) {
-        current = Math.round(track.scrollLeft / (width + gap));
-        updateDots();
-      }
+    clearTimeout(scrollTimer);
+
+    scrollTimer = setTimeout(() => {
+      const position = track.scrollLeft;
+
+      let closestIndex = 0;
+      let minDistance = Infinity;
+
+      slides.forEach((slide, index) => {
+        const distance = Math.abs(slide.offsetLeft - position);
+
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestIndex = index;
+        }
+      });
+
+      current = closestIndex;
+      updateDots();
     }, 100);
   }, { passive: true });
 
-  track.addEventListener('pointerdown', pauseThenResume, { passive: true });
-  track.addEventListener('touchstart', pauseThenResume, { passive: true });
+  track.addEventListener('pointerdown', pauseThenResume, {
+    passive: true
+  });
 
-  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if (!prefersReducedMotion && slideCount > 1) {
-    startAutoplay();
-  }
+  const reducedMotion = window.matchMedia(
+    '(prefers-reduced-motion: reduce)'
+  ).matches;
 
-  window.addEventListener('resize', () => goTo(current, false));
+  requestAnimationFrame(() => {
+    goTo(0, false);
+
+    if (!reducedMotion && count > 1) {
+      startAutoplay();
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    goTo(current, false);
+  });
 }
 
 /* ---------- related card navigation (smooth in-page swap) ---------- */

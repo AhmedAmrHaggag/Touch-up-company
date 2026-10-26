@@ -402,7 +402,7 @@ html[dir="rtl"] .field textarea { text-align: right; }
 
 
 /* carousel */
-.carousel-wrap { position: relative; }
+/* .carousel-wrap { position: relative; }
 .carousel-track {
   display: flex;
   overflow-x: auto;
@@ -463,6 +463,129 @@ html[dir="rtl"] .field textarea { text-align: right; }
   background: var(--tandark);
   width: 18px;
   border-radius: 3px;
+} */
+
+
+
+
+
+
+.carousel-wrap {
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  gap: 12px;
+  scroll-behavior: smooth;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-slide {
+  flex: 0 0 82%;
+  min-width: 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 640px) {
+  .carousel-slide {
+    flex: 0 0 56%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-slide {
+    flex: 0 0 38%;
+  }
+}
+
+.carousel-slide img,
+.carousel-slide video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  background: var(--cream);
+  border: 1px solid rgba(41, 42, 39, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.carousel-btn:hover {
+  background: var(--tan);
+}
+
+.carousel-btn.prev {
+  left: -6px;
+}
+
+.carousel-btn.next {
+  right: -6px;
+}
+
+@media (min-width: 768px) {
+  .carousel-btn.prev {
+    left: -21px;
+  }
+
+  .carousel-btn.next {
+    right: -21px;
+  }
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 6px;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.carousel-dot {
+  width: 6px;
+  height: 6px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(41, 42, 39, 0.2);
+  cursor: pointer;
+  transition: background 0.2s ease, width 0.2s ease;
+}
+
+.carousel-dot.active {
+  background: var(--tandark);
+  width: 18px;
+  border-radius: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-track {
+    scroll-behavior: auto;
+  }
 }
 
 /* description list beside gallery */
