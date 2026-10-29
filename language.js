@@ -21,7 +21,7 @@
     "See our services": "اكتشف خدماتنا",
     "Start a project": "ابدأ مشروعك",
     "Years on site": "سنوات من الخبرة الميدانية",
-    "Projects delivered": "مشروعاً تم إنجازه",
+    "Projects Finished": "مشروعاً تم إنجازه",
     "Vehicles & Maintenance units": "مركبة تم صيانتها",
     "Maintenance support": "دعم الصيانة",
     "What we do": "ما نقدمه",

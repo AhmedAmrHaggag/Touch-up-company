@@ -30,7 +30,8 @@ const SERVICES = {
       { src: './images/construction 91.jpeg', alt: 'Engineers reviewing structural plans on site' },
     ],
     projects: [
-      { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: './videos/construction 2.mp4' },
+      // { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: './videos/construction 2.mp4' },
+      { tag: 'Industrial Zone', title: 'Warehouse shell & core', img: './videos/touch up video 5 .mp4' },
       { tag: 'Commercial', title: 'Retail block foundations', img: './images/construction 5.jpeg' },
       { tag: 'Mixed-use', title: 'Structural concrete frame', img: './images/construction 6.jpeg' },
     ],
@@ -55,13 +56,14 @@ const SERVICES = {
     gallery: [
       { src: './images/touch up details 1.jpeg', alt: 'Wall plastering and finishing work' },
       { src: './images/touch up 3.jpeg', alt: 'Interior painting in progress' },
+      // { src: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=900&auto=format&fit=crop', alt: 'Finished interior wall detail' },
       { src: './images/touch up 6.jpeg', alt: 'Finished interior wall detail' },
       { src: './images/touch up 4.jpeg', alt: 'Touch-up repair work on a wall corner' },
       { src: './images/touch up 5.jpeg', alt: 'Finishing crew reviewing a snag list' },
     ],
     projects: [
       { tag: 'Residential', title: 'Full interior finishing pass', img: './videos/touch up video 3 .mp4' },
-      { tag: 'Office Fit-out', title: 'Snag-list repair programme', img: './videos/touch up video 5 .mp4' },
+      { tag: 'Office Fit-out', title: 'Snag-list repair programme', img: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=900&auto=format&fit=crop' },
       { tag: 'Retail', title: 'Post-handover maintenance', img: './videos/touch up video 4 .mp4' },
     ],
   },
@@ -84,15 +86,16 @@ const SERVICES = {
     ],
     gallery: [
       { src: './images/mainterence8.jpeg', alt: 'Transport vehicles parked in a row' },
-      { src: './images/mainterence9.jpeg', alt: 'Car driving on a highway' },
-      { src: './images/mainterence2.jpeg', alt: 'Maintenance vehicle interior dashboard' },
-      { src: './images/mainterence5.jpeg', alt: 'Vehicles queued at a dispatch yard' },
-      { src: './images/OIP (1).webp', alt: 'Driver checking a transport vehicle' },
+      { src: './images/Transportation 5.jpeg', alt: 'Car driving on a highway' },
+      { src: './images/Transportation 3.jpeg', alt: 'Maintenance vehicle interior dashboard' },
+      { src: './images/mainterence9.jpeg', alt:  'Driver checking a transport vehicle' },
+      { src: './images/Transportation 6.jpeg', alt: 'Vehicles queued at a dispatch yard' },
+
     ],
     projects: [
-      { tag: 'Staff Transfer', title: 'Daily site-to-site shuttle', img: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Materials', title: 'Cross-city supply runs', img: 'https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Client Transport', title: 'Scheduled transfer service', img: 'https://images.unsplash.com/photo-1519003722824-194d4455a60c?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Staff Transfer', title: 'Daily site-to-site shuttle', img: './images/Transportation 1.jpeg' },
+      { tag: 'Materials', title: 'Cross-city supply runs', img: './images/mainterence5.jpeg' },
+      { tag: 'Client Transport', title: 'Scheduled transfer service', img: './images/Transportation 2.jpeg' },
     ],
   },
 
@@ -101,7 +104,7 @@ const SERVICES = {
     title: 'GIS Services',
     tagline: 'Land surveying, mapping & spatial data for planning.',
         heroVideo: './videos/gis video1.mp4',
-     heroImage: 'https://images.unsplash.com/photo-1508614999368-9260051292e5?q=80&w=1200&auto=format&fit=crop',
+     heroImage: './images/gis 1.jpeg',
     heroAlt: 'Topographic map and land surveying equipment',
     intro: [
       "Site surveys, topographic mapping and GIS data layers that feed directly into design and permitting — so ground truth shapes every decision before we break ground.",
@@ -114,15 +117,17 @@ const SERVICES = {
     ],
     gallery: [
       { src: './gif/gis 1.gif', alt: 'Land surveying with GPS equipment' },
-      { src: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=900&auto=format&fit=crop', alt: 'Topographic map spread on a table' },
+      { src: './images/gis 1.jpeg', alt: 'Topographic map spread on a table' },
+      { src: './images/gis 2.jpeg', alt: 'Aerial view of surveyed land plots' },
+      // { src: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=900&auto=format&fit=crop', alt: 'Aerial view of surveyed land plots' },
+      { src: './images/gis 3.jpeg', alt: 'Engineer analysing spatial data on a laptop' },
       { src: './gif/gis 2.gif', alt: 'Surveyor using a total station on site' },
-      { src: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=900&auto=format&fit=crop', alt: 'Aerial view of surveyed land plots' },
-      { src: 'https://images.unsplash.com/photo-1454165833767-027f8636c8ff?q=80&w=900&auto=format&fit=crop', alt: 'Engineer analysing spatial data on a laptop' },
     ],
     projects: [
-      { tag: 'Pre-construction', title: 'Full site topographic survey', img: 'https://images.unsplash.com/photo-1508615039623-a25605d2b022?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Planning', title: 'GIS layer set for permitting', img: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800&auto=format&fit=crop' },
-      { tag: 'Infrastructure', title: 'Boundary & utility mapping', img: 'https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Pre-construction', title: 'Full site topographic survey', img: './images/gis 1.jpeg' },
+      // { tag: 'Pre-construction', title: 'Full site topographic survey', img: 'https://images.unsplash.com/photo-1508615039623-a25605d2b022?q=80&w=800&auto=format&fit=crop' },
+      { tag: 'Planning', title: 'GIS layer set for permitting', img: './images/gis 2.jpeg' },
+      { tag: 'Infrastructure', title: 'Boundary & utility mapping', img: './images/gis 3.jpeg' },
     ],
   },
 
@@ -161,7 +166,7 @@ const SERVICES = {
     title: 'Jumbo & Mini Vehicle Maintenance',
     tagline: 'Scheduled upkeep for heavy jumbo units & light vehicles.',
     heroVideo: './videos/Maintenance 1.mp4',
-    heroImage: 'https://images.unsplash.com/photo-1616455579100-2ceaa4eb2d37?q=80&w=1200&auto=format&fit=crop',
+    heroImage: './images/mainterence7.jpeg',
     heroAlt: 'Mechanic servicing a heavy vehicle in a workshop',
     intro: [
       "In-house servicing for jumbo trucks and mini vehicles alike — routine maintenance, breakdown response and parts management to keep every unit road-ready.",
